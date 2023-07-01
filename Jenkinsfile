@@ -19,7 +19,7 @@ pipeline {
                 dir("/home/ubuntu/workspace/INFRA PIPELINES/lb-asg/petclinic-lb-asg"){
                 sh '''
                 terraform init
-                terraform destroy -auto-approve
+                terraform apply -auto-approve
                 '''
                 }
             }
