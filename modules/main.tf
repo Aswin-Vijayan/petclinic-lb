@@ -120,7 +120,7 @@ resource "aws_launch_template" "petclinic" {
 
     aws s3 cp s3://petclinic-project/jar/jmx_prometheus_javaagent-0.18.0.jar
 
-    curl -u aswin:18NOV@99 -O http://http://35.91.114.251:8081/repository/maven-releases/petclinic-jarfile/org/springframework/boot/petclinic/3.0.7/petclinic-3.0.7.jar
+    curl -u aswin:18NOV@99 -O http://http://54.244.121.108:8081/repository/maven-releases/petclinic-jarfile/org/springframework/boot/petclinic/3.0.7/petclinic-3.0.7.jar
 
     ./start.sh
 
