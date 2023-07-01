@@ -14,7 +14,7 @@ pipeline {
         
         stage('Lint Test') {
             steps {
-                dir("/home/ubuntu/workspace/INFRA PIPELINES/petclinic-lb-asg"){
+                dir("/home/ubuntu/workspace/INFRA PIPELINES/lb-asg"){
                 sh 'terraform fmt --recursive'
                 }
             }
